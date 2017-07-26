@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-last",
+  "version": "0.0.1",
+  "description": "The last ESLint config you ever need :wink:",
+  "keywords": [
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "lint",
+    "config"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:neciu/eslint-config-last.git",
+  "author": "Tomasz Netczuk <contact@netczuk.pl>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "7.2.3",
+    "eslint": "4.3.0",
+    "eslint-config-prettier": "2.3.0",
+    "eslint-plugin-prettier": "2.1.2",
+    "prettier": "1.5.3"
+  },
+  "scripts": {
+    "lint": "yarn eslint -- .",
+    "lint:fix": "yarn lint -- --fix"
+  }
+}

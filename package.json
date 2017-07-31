@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-last",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The last ESLint config you ever need :wink:",
   "keywords": [
     "javascript",

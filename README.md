@@ -3,7 +3,7 @@
 
 ## Usage 
 [Yarn](https://yarnpkg.com) version:
-1. Add `esling-config-last` to your project: `yarn add esling-config-last -D -E`.
+1. Add `eslint-config-last` to your project: `yarn add eslint-config-last -D -E`.
 2. Add peer dependencies: `yarn add eslint babel-eslint prettier  eslint-config-prettier eslint-plugin-prettier -D -E`.
 3. Create `.eslintrc.js` configuration file: 
 ```

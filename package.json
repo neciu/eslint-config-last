@@ -28,7 +28,7 @@
     "prettier": "1.5.3"
   },
   "scripts": {
-    "lint": "yarn eslint -- .",
-    "lint:fix": "yarn lint -- --fix"
+    "lint": "yarn eslint .",
+    "lint:fix": "yarn lint --fix"
   }
 }

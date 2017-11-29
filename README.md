@@ -14,8 +14,8 @@ module.exports = {
 4. Add lint scripts to `package.json`:
 ```json
 "scripts": {
-  "lint": "yarn eslint -- .",
-  "lint:fix": "yarn lint -- --fix"
+  "lint": "yarn eslint .",
+  "lint:fix": "yarn lint --fix"
 }
 ```
 5. Run `yarn lint` to lint your code.
